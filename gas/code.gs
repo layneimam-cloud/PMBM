@@ -25,13 +25,14 @@ const DEFAULT_FORM_FIELDS = [
   { id: "Foto Siswa", label: "Pas Foto 3x4", type: "file", required: true },
   { id: "Kartu Keluarga", label: "Kartu Keluarga", type: "file", required: true },
   { id: "Akta Kelahiran", label: "Akta Kelahiran", type: "file", required: true }
+  { id: "Ijazah/SKHUN", label: "Ijazah/SKHUN", type: "file", required: true }
 ];
 
 const DEFAULT_SETTINGS = {
-  namaSekolah: "SDN Harapan Bangsa",
-  alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
-  telepon: "(021) 1234-5678",
-  email: "info@sdnharapanbangsa.sch.id",
+  namaSekolah: "MTSN 6 BANTUL",
+  alamat: "JL. IMOGIRI TIMUR KM. 10 WONOKROMO, Kec. Pleret, Kab. Bantul, Prov. D.I. Yogyakarta.",
+  telepon: "0274 4399871",
+  email: "mtsnegeri6bantul@gmail.com",
   deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
   statusPendaftaran: "Buka",
   formFields: JSON.stringify(DEFAULT_FORM_FIELDS)
